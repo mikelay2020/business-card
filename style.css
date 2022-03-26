@@ -1,0 +1,84 @@
+body {
+  background-color: #f1f1f1;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info-text {
+  margin-left: 30px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 60%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  /* чтобы ссылка не была подчеркнутой */
+}
+/* наведение на ссылку */
+a:hover {
+  text-decoration: underline;
+  /* при наведении будет подчеркиваться */
+}
+
+/* active при нажатии  например меняет цвет*/
+a:active {
+  color: rgb(24, 18, 114);
+}
+
+/* состояние посетили */
+a:visited {
+  color: rgb(197, 189, 78);
+}
+
+.bg-yellow {
+  background: #fff9dc;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-red {
+  background: #ffe5e5;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20px;
+  list-style: none; /* убирает цифры со списка */
+}
+
+.list li {
+  color: 000;
+  margin-bottom: 10px;
+}
